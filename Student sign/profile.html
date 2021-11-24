@@ -1,0 +1,130 @@
+<Html>  
+<head>   
+<title>  
+Profile Page
+</title>  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="profile.css">
+</head>  
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Get Hired!!</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link inactive" aria-current="page" href="D://PICT//TE sem 5//DBMS//MiniProject//Student sign//homepage.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="D://PICT//TE sem 5//DBMS//MiniProject//Student sign//profile.html">My Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link inactive" aria-current="page" href="#">My Applied Company</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link inactive" aria-current="page" href="#">Apply for Company</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-outline-success" type="submit">Log Out</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<body>  
+<h1 id='Heading'><b><u><center>My Profile</center></font></u></b></h1>
+<br>  
+<br>
+
+  <center>
+<form>  
+  <table  cellpadding ="5" cellspacing="5" width="60%" bgcolor="#F5FCFF">
+<tr></tr><tr></tr><tr></tr>
+<tr><td><b><label> <font color=black  size="4">Student name   </font ></label>      </b> </td>  
+<th><input type="text" name="name" size="50"><th> </tr>
+ <tr> <th>
+<tr><td><b>
+<label>   <font color=black  size="4">
+Branch:   </font >
+</label> </b></td>  
+<th> 
+<select length="50">  
+<option value="None">Select option</option> 
+<option value="CSE">CSE</option>  
+<option value="IT">IT</option>  
+<option value="EnTC">EnTC</option>  
+</select>  
+ </th> </tr>
+
+<tr><td><b><label> <font color=black  size="4">
+Gender:</font>  
+</label></td><th>
+<input type="radio" id="M" name="gender" value="Male">
+<label for="M">Male</label>
+<input type="radio" id="F" name="gender" value="Female">
+<label for="F">Female</label>
+<input type="radio" id="O" name="gender" value="Others">
+<label for="O">Others</label>
+
+ <tr><td><b><label> <font color=black  size="4"> 
+
+<label>   
+Phone:  </font> 
+</label>  </td><th>
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="number" name="phone" size="10"/></th></td>
+   <tr><td><b><label> <font color=black  size="4">
+Address:  
+</font></td><th>
+<input type="text" name="address" size="50">  </th></tr>
+ <tr><td><b><label> <font color=black  size="4"> 
+
+
+<tr><td><b><label> <font color=black  size="4">Institution name   </font ></label>      </b> </td>  
+<th><input type="text" name="Institution" size="50"><th> </tr>
+ <tr> <th>
+
+<tr><td><b><label> <font color=black  size="4">CGPA   </font ></label>      </b> </td>  
+<th><input type="number" name="cgpa" size="50"><th> </tr>
+ <tr> <th>
+
+<tr><td><b><label> <font color=black  size="4">Social Media  </font ></label>      </b> </td>  
+<th><input type="text" name="social_media" size="50"><th> </tr>
+ <tr> <th>
+
+<tr><td><b><label> <font color=black  size="4">Technical skills </font ></label>      </b> </td>  
+<th><input type="checkbox" id="1" name="1" value="C++">
+<label for="1"> C++</label>
+<input type="checkbox" id="2" name="2" value="C">
+<label for="2"> C</label>
+<input type="checkbox" id="3" name="3" value="Python">
+<label for="3"> Python</label>
+<input type="checkbox" id="4" name="4" value="Java">
+<label for="4"> Java</label>
+<input type="checkbox" id="5" name="5" value="HTML">
+<label for="5"> HTML</label>
+<input type="checkbox" id="6" name="6" value="CSS">
+<label for="6"> CSS</label>
+<input type="checkbox" id="7" name="" value="Java Script">
+<label for="7"> Java Script</label>
+<input type="checkbox" id="8" name="8" value="MySql">
+<label for="8">MySql</label>
+<input type="checkbox" id ="9" name="9" value="Mongo DB">
+<label for="9">Mongo DB</label></th>
+</tr>
+<tr></tr><tr></tr><tr></tr>
+ <tr> <th colspan="2"><center>
+<input id='Save_Button' type="button" value="Save"/>  </center>
+</table></form>  </center></span>
+<span>
+
+<script>
+  const fileInput = document.getElementById('file-input');
+
+  fileInput.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
+</script></th> </tr>
+</span>
+</body>  
+</html>  

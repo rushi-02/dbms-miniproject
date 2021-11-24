@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap');
+
+body{
+    background-color:whitesmoke;
+}
+table{
+    background-color: whitesmoke;
+}
+
+body #Heading{
+    color: rgb(86, 86, 250);
+    margin-top: 10px;
+    font-size: 50px;
+
+    font-family: 'Lato', sans-serif;
+}
+
+table #Save_Button{
+    background-color: rgb(86, 86, 250);
+    color: white;
+    font-weight: bolder;
+    width: 60px;
+    margin-top: 10px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
