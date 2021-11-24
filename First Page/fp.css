@@ -1,0 +1,18 @@
+body .container{
+    margin-top: 20rem;
+}
+body{
+    background-color: lightblue;
+}
+
+.container button{
+    width: 100px;
+    background-color: purple;
+    border-radius: 13px;
+    color: white;
+    cursor: pointer;
+}
+
+.container button :hover{
+    background-color: rgba(128, 0, 128, 0.8);
+}
